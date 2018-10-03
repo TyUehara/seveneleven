@@ -14,21 +14,54 @@
     <a class="fitted text" style="padding-top: 5px; color:black;">KEEP TRAINING WITH MOSKOVA</a>
     <i class="fitted right item"><i class="search icon"></i></i></a>
     <a class="ui item">SHOPPING BAG (0)</a>
-    <a class="ui item">MY ACCOUNT<i class="dropdown icon"></i></a>
+
+    <div class="ui dropdown item">
+      <div class="text">MY ACCOUNT</div>
+      <i class="dropdown icon"></i>
+      <div class="drop menu">
+        <div class="item">MY ACCOUNT</div>
+        <div class="item">CHECKOUT</div>
+        <div class="item">SIGN UP</div>
+        <div class="item">LOG IN</div>
+      </div>
+    </div>
     </div>
   </div>
 </div>
 
 <div class="ui borderless midmenu secondary menu">
     <img class="ui left image" src="//cdn.shopify.com/s/files/1/1192/7472/t/32/assets/moskova-white.png?721950238959156955">
-    <a class="ui moskova item">UNDERWEAR</a>
-    <a class="ui moskova item">APPAREL</a>
-    <a class="ui moskova item">TRAINING</a>
-    <a class="ui moskova item">ACCESSORIES</a>
-    <a class="ui moskova item">ABOUT</a>
-    <a class="ui moskova item">BLOG // NEWS</a>
+  <div class="ui dropdown">
+    <div class="ui moskova item">UNDERWEAR</div>
+    <div id="dropthree" class="menu drop">
+      <div class="item">LEISURE</div>
+      <div class="item">TRAINING</div>
+    </div>
+  </div>
+  <div class="ui dropdown">
+    <div class="ui moskova item">APPAREL</div>
+    <div id="dropone" class="menu drop">
+      <div class="item">SHORTS</div>
+      <div class="item">T SHIRTS</div>
+      <div class="item">RASHGUARDS</div>
+    </div>
+  </div>
+    <div class="ui moskova item">TRAINING</div>
+    <div class="ui moskova item">ACCESSORIES</div>
+  <div class="ui dropdown">
+    <div class="ui moskova item">ABOUT</div>
+    <div id="droptwo" class="menu drop">
+      <div class="item">FOUNDERS</div>
+    </div>
+  </div>
+    <div class="ui moskova item">BLOG // NEWS</div>
 </div>
 
 <img class="ui fliud image" src="//cdn.shopify.com/s/files/1/1192/7472/t/32/assets/slide1_image.jpg?721950238959156955">
+<script>
+  $('.ui.dropdown')
+      .dropdown()
+  ;
+</script>
 </body>
 </html>

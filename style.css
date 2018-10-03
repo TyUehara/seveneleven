@@ -5,10 +5,13 @@
 }
 
 .ui.borderless.midmenu.secondary.menu{
-  line-height: 1.5em;
   background-color: black;
   color:white;
-  font-size: 17px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 45px;
+  box-sizing: border-box;
+
 }
 
 .ui.left.image{
@@ -16,6 +19,12 @@
   height: 23px;
   margin-top: 9px;
   margin-left: 14px;
+}
+
+.ui.moskova.dropdown.item{
+  color:white;
+  font-size: 14px;
+  font-family: Lato;
 }
 
 .ui.moskova.item{
@@ -26,4 +35,20 @@
 
 .ui.fliud.image{
   margin-top: -14px;
+}
+
+#dropone{
+  background-color: slategrey;
+  color: white;
+  font-family: Lato;
+}
+#droptwo{
+  background-color: slategrey;
+  color: white;
+  font-family: Lato;
+}
+#dropthree{
+  background-color: slategrey;
+  color: white;
+  font-family: Lato;
 }
