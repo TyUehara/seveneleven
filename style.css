@@ -1,0 +1,29 @@
+.ui.borderless.topmenu.secondary.menu{
+  color:black;
+  padding-left: 45px;
+  font-size: 10px;
+}
+
+.ui.borderless.midmenu.secondary.menu{
+  line-height: 1.5em;
+  background-color: black;
+  color:white;
+  font-size: 17px;
+}
+
+.ui.left.image{
+  width: 125px;
+  height: 23px;
+  margin-top: 9px;
+  margin-left: 14px;
+}
+
+.ui.moskova.item{
+  color:white;
+  font-size: 14px;
+  font-family: Lato;
+}
+
+.ui.fliud.image{
+  margin-top: -14px;
+}
